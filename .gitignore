@@ -1,0 +1,118 @@
+# -------------------------
+# Python cache and artifacts
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.lib
+*.a
+*.obj
+*.o
+
+# C extensions
+*.c
+*.cpp
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+venv*/
+env*/
+
+# pip / packaging
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# OS-generated files
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# -------------------------
+# IDE / Editor settings
+# -------------------------
+# VS Code
+.vscode/
+.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# -------------------------
+# Logs and runtime files
+# -------------------------
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# -------------------------
+# Project-specific notes
+# -------------------------
+# Keep game assets tracked:
+# textures/ and sounds/ are intentionally NOT ignored.
+# If you generate extra large files (e.g., captured screenshots or recordings), ignore them here:
+# screenshots/
+# recordings/
+# *.mp4
+# *.avi
+
+# If you add build tools that output here, uncomment as needed:
+# output/
+# release/
