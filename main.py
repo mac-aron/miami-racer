@@ -652,9 +652,9 @@ def update():
     player.scale_x = 1.6 * (1 + skew)
 
     # Nitro fire
-    if nitro_burning or unlimited_nitro:
-        for _ in range(2 + int(speed/35)):
-            spawn_fire()
+    # if nitro_burning or unlimited_nitro:
+    #     for _ in range(2 + int(speed/35)):
+            # spawn_fire()
 
     # Step effects
     for f in active_fire[:]:
